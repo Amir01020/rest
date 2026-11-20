@@ -1,0 +1,17 @@
+{
+  "name": "internet-speed-test",
+  "version": "1.0.0",
+  "description": "CLI для замера скорости скачивания: N последовательных HTTP(S)-запросов, среднее время, объём и скорость",
+  "main": "src/speedtest.js",
+  "bin": {
+    "speedtest": "bin/speedtest.js"
+  },
+  "scripts": {
+    "start": "node bin/speedtest.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18.3"
+  },
+  "keywords": ["speedtest", "cli", "download", "bandwidth"]
+}
